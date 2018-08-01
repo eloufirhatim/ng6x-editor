@@ -1,18 +1,18 @@
 <div class="container">
   <div class="logo block">
-    <img src="assets/icons/ngx-editor.svg" alt="ngx-Editor">
+    <img src="assets/icons/ng6x-editor.svg" alt="ng6x-editor">
     <h6>A Simple WYSIWYG Editor for Angular5+ Applications.</h6>
     <p>(Currently -
-      <a href="https://github.com/Sibiraj-S/ngx-editor/releases/{{ latestRelease['name'] }}" target="_blank">{{ latestRelease['name'] }}</a>) </p>
+      <a href="https://github.com/Sibiraj-S/ng6x-editor/releases/{{ latestRelease['name'] }}" target="_blank">{{ latestRelease['name'] }}</a>) </p>
     <a class="github-button" href="https://github.com/Sibiraj-S" aria-label="Follow @Sibiraj-S on GitHub">Follow @Sibiraj-S</a>
-    <a class="github-button" href="https://github.com/Sibiraj-S/ngx-editor/fork" aria-label="Fork Sibiraj-S/ngx-editor on GitHub">Fork</a>
-    <a class="github-button" href="https://github.com/Sibiraj-S/ngx-editor" aria-label="Star Sibiraj-S/ngx-editor on GitHub">Star</a>
-    <a class="github-button" href="https://github.com/Sibiraj-S/ngx-editor/issues" data-show-count="true" aria-label="Issue Sibiraj-S/ngx-editor on GitHub">Issue</a>
-    <a class="github-button" href="https://github.com/Sibiraj-S/ngx-editor/archive/master.zip" aria-label="Download Sibiraj-S/ngx-editor on GitHub">Download</a>
+    <a class="github-button" href="https://github.com/Sibiraj-S/ng6x-editor/fork" aria-label="Fork Sibiraj-S/ng6x-editor on GitHub">Fork</a>
+    <a class="github-button" href="https://github.com/Sibiraj-S/ng6x-editor" aria-label="Star Sibiraj-S/ng6x-editor on GitHub">Star</a>
+    <a class="github-button" href="https://github.com/Sibiraj-S/ng6x-editor/issues" data-show-count="true" aria-label="Issue Sibiraj-S/ng6x-editor on GitHub">Issue</a>
+    <a class="github-button" href="https://github.com/Sibiraj-S/ng6x-editor/archive/master.zip" aria-label="Download Sibiraj-S/ng6x-editor on GitHub">Download</a>
   </div>
 
   <div class="editor block">
-    <app-ngx-editor [config]="editorConfig" [spellcheck]="true" [(ngModel)]="htmlContent"></app-ngx-editor>
+    <app-ng6x-editor [config]="editorConfig" [spellcheck]="true" [(ngModel)]="htmlContent"></app-ng6x-editor>
   </div>
 
   <div *ngIf="htmlContent" class="htmlblock block">

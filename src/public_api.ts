@@ -1,1 +1,1 @@
-export * from './app/ngx-editor/ngx-editor.module';
+export * from './app/ng6x-editor/ng6x-editor.module';

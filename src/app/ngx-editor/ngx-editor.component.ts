@@ -7,13 +7,13 @@ import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
 import { CommandExecutorService } from './common/services/command-executor.service';
 import { MessageService } from './common/services/message.service';
 
-import { ngxEditorConfig } from './common/ngx-editor.defaults';
-import * as Utils from './common/utils/ngx-editor.utils';
+import { ngxEditorConfig } from './common/ng6x-editor.defaults';
+import * as Utils from './common/utils/ng6x-editor.utils';
 
 @Component({
-  selector: 'app-ngx-editor',
-  templateUrl: './ngx-editor.component.html',
-  styleUrls: ['./ngx-editor.component.scss'],
+  selector: 'app-ng6x-editor',
+  templateUrl: './ng6x-editor.component.html',
+  styleUrls: ['./ng6x-editor.component.scss'],
   providers: [
     {
       provide: NG_VALUE_ACCESSOR,

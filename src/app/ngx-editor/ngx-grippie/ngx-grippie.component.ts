@@ -1,5 +1,5 @@
 import { Component, HostListener } from '@angular/core';
-import { NgxEditorComponent } from '../ngx-editor.component';
+import { NgxEditorComponent } from '../ng6x-editor.component';
 
 @Component({
   selector: 'app-ngx-grippie',

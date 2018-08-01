@@ -1,11 +1,11 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import 'rxjs/add/operator/map';
+import { map } from 'rxjs/operators';
 
 @Injectable()
 export class AppService {
 
-  private releaseURL = 'https://api.github.com/repos/Sibiraj-S/ngx-editor/releases';
+  private releaseURL = 'https://api.github.com/repos/Sibiraj-S/ng6x-editor/releases';
 
   /**
    *
@@ -15,14 +15,14 @@ export class AppService {
 
   getLatestRelease(): any {
 
-    return this._http.get(this.releaseURL)
-      .map((response: any) => {
+    return this._http.get(this.releaseURL).pipe(
+      map((response: any) => {
         if (response && response['length'] !== 0) {
           return response;
         } else {
           return [];
         }
-      });
+      }));
   }
 
 }

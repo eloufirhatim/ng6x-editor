@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxEditorMessageComponent } from './ngx-editor-message.component';
+import { NgxEditorMessageComponent } from './ng6x-editor-message.component';
 import { MessageService } from '../common/services/message.service';
 
 describe('NgxEditorMessageComponent', () => {

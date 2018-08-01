@@ -1,6 +1,3 @@
 {
-    "files.exclude": {
-        "node_modules/": true
-    },
     "files.insertFinalNewline": true
 }

@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { AppService } from './app.service';
-import { Subject } from 'rxjs/Subject';
+import { Subject } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +11,7 @@ import { Subject } from 'rxjs/Subject';
 
 export class AppComponent implements OnInit, OnDestroy {
 
-  title = 'ngx-editor';
+  title = 'ng6x-editor';
   latestRelease: any = [];
   private subscription: Subject<any> = new Subject();
 

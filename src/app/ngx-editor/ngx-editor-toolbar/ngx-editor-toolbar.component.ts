@@ -4,12 +4,12 @@ import { HttpResponse } from '@angular/common/http';
 import { PopoverConfig } from 'ngx-bootstrap';
 import { CommandExecutorService } from '../common/services/command-executor.service';
 import { MessageService } from '../common/services/message.service';
-import * as Utils from '../common/utils/ngx-editor.utils';
+import * as Utils from '../common/utils/ng6x-editor.utils';
 
 @Component({
-  selector: 'app-ngx-editor-toolbar',
-  templateUrl: './ngx-editor-toolbar.component.html',
-  styleUrls: ['./ngx-editor-toolbar.component.scss'],
+  selector: 'app-ng6x-editor-toolbar',
+  templateUrl: './ng6x-editor-toolbar.component.html',
+  styleUrls: ['./ng6x-editor-toolbar.component.scss'],
   providers: [PopoverConfig]
 })
 

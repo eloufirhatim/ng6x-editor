@@ -1,8 +1,8 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { NgxEditorToolbarComponent } from './ngx-editor-toolbar.component';
-import { ngxEditorConfig } from '../common/ngx-editor.defaults';
+import { NgxEditorToolbarComponent } from './ng6x-editor-toolbar.component';
+import { ngxEditorConfig } from '../common/ng6x-editor.defaults';
 import { PopoverModule } from 'ngx-bootstrap';
 import { CommandExecutorService } from '../common/services/command-executor.service';
 import { MessageService } from '../common/services/message.service';
